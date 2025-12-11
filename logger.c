@@ -16,3 +16,6 @@ void log_event(const char *pid, const char *action, const char *resource) {
     fprintf(f, "%.4f %s %s %s\n", t, pid, action, resource);
     fclose(f);
 }
+
+// Minor update for assignment requirements
+
