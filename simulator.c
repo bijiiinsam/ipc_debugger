@@ -1,3 +1,6 @@
+// TODO: Improved simulator logic coming soon
+
+
 #include "simulator.h"
 #include "logger.h"
 #include <unistd.h>
