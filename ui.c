@@ -2,6 +2,7 @@
 #include "simulator.h"
 #include "analyzer.h"
 #include <stdio.h>
+#include <unistd.h>
 
 void ui_run_menu() {
     int choice;
@@ -10,7 +11,7 @@ void ui_run_menu() {
         printf("\nIPC Debugger Menu\n");
         printf("1. Run Simulation\n");
         printf("2. Analyze Log\n");
-        printf("3. Exit\n");
+        printf("3. exit\n");
         printf("Choose: ");
         scanf("%d", &choice);
 
